@@ -33,6 +33,10 @@ ul {
   list-style: none;
 }
 
+p {
+ margin:.5rem 0;
+}
+
 img {
   width: 100%;
 }
@@ -104,6 +108,55 @@ h1, h2, h3, h4, h5, h6 {
 .bg-secondary {
   background:var(--secondary-color);
   color: #fff;
+}
+
+.bg-dark h1,
+.bg-dark h2,
+.bg-dark h3,
+.bg-dark a,
+.bg-primary h1,
+.bg-primary h2,
+.bg-primary h3,
+.bg-primary a,
+.bg-secondary h1,
+.bg-secondary h2,
+.bg-secondary h3,
+.bg-secondary a {
+  color: #fff;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.links li {
+  padding: .5rem 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+}
+
+.links li a:hover {
+  color: var(--primary-color) !important;
 }
 
 
@@ -217,6 +270,59 @@ h1, h2, h3, h4, h5, h6 {
 #home-articles .articles-container > *:last-child{
   grid-column: 2 / span 2;
 } 
+
+/* footer */
+#main-footer {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+#main-footer img {
+  width: 150px;
+}
+
+#main-footer a {
+  color: #fff;
+}
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container > *:last-child {
+  background-color: #444;
+  grid-column: 1 / span 4;
+  padding: .5rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+#main-footer .footer-container input[type='email'] {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input[type='submit'] {
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
