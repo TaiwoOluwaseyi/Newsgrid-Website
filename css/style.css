@@ -149,6 +149,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 3rem;
 }
 
+.L-heading {
+  font-size: 3rem;
+}
+
 .links li {
   padding: .5rem 0;
   border-bottom: #555 dotted 1px;
